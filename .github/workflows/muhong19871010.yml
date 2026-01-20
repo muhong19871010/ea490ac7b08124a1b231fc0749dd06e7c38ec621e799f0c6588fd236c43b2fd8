@@ -3,7 +3,7 @@ name: muhong19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 0/6 * * *'
+    - cron: '3 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: muhong19871010
         env:
-          rll9: ${{ secrets.rll9 }}
+          a18743: ${{ secrets.a18743 }}
         run: |
-          echo $rll9 | jq -r .dyp3 | /bin/bash
-          echo $emn9076 | jq -r .xmd07 | /bin/bash
-          echo $s029 | jq -r .jz8 | /bin/bash
-          echo $ofvx068 | jq -r .u96423 | /bin/bash
-          echo $opcw33 | jq -r .covwc94152 | /bin/bash
-          echo $lmm8012 | jq -r .quwlo293 | /bin/bash
-          echo $qn024 | jq -r .arem08 | /bin/bash
-          echo $g3 | jq -r .cvevr62 | /bin/bash
-          echo $tvz0397 | jq -r .bpar35409 | /bin/bash
-          echo $xcj1 | jq -r .sd31486 | /bin/bash
-          echo $r5 | jq -r .rs8 | /bin/bash
-          echo $tr04 | jq -r .j55 | /bin/bash
+          echo $a18743 | jq -r .zh6478 | /bin/bash
+          echo $rvg18568 | jq -r .uri177 | /bin/bash
+          echo $qw79524 | jq -r .hho14579 | /bin/bash
+          echo $ts6 | jq -r .u1 | /bin/bash
+          echo $xmqm0 | jq -r .y3 | /bin/bash
+          echo $rr1 | jq -r .dzdi0342 | /bin/bash
+          echo $b644 | jq -r .lmim14 | /bin/bash
+          echo $ayrfd4 | jq -r .p2 | /bin/bash
+          echo $dcfx3 | jq -r .wvtsy72 | /bin/bash
+          echo $lutz950 | jq -r .ul84 | /bin/bash
+          echo $cif08090 | jq -r .nl247 | /bin/bash
+          echo $aeavy400 | jq -r .lzr883 | /bin/bash
+          echo $lgiv48930 | jq -r .wyubi7036 | /bin/bash
 
